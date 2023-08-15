@@ -70,7 +70,6 @@ hr {
         background-color: black;
         width: 97%;
         position: fixed;
-        padding: 5px;
     }
 
     .texto-menu {
@@ -91,6 +90,8 @@ hr {
 
     .menu-lista {
         list-style: none;
+        width: 15vh;
+        background-color: rgb(195, 56, 56);
     }
 
 
@@ -106,6 +107,10 @@ hr {
 
     .menu {
         position: fixed;
+    }
+
+    .perfil {
+        padding-top: 50px;
     }
 
 
