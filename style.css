@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    top: 0;
+    margin-top: 0;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.menu-lista {
+    list-style: none;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+}
+
+.perfil-img {
+    background-color: #525d68;
+    border-radius: 110px;
+    border: white 2px solid;
+}
+
+.nome {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texto-perfil {
+    line-height: 2em;
+}
+
+hr {
+    width: 50%;
+}
+
+.perfil {
+    display: block;
+    text-align: center;
+    padding: 2em;
+    align-items: center;
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    gap: 2em;
+}
+
+.texto-projeto {
+    text-align: left;
+    padding-left: 150px;
+    font-size: 24px;
+}
+
+
+@media screen and  (max-device-width: 700px) {
+
+    .menu {
+        position: fixed;
+    }
+
+    .icones {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        width: 97%;
+        position: fixed;
+        padding: 5px;
+    }
+
+    .texto-menu {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+        color:  #bdc1c6;
+    }
+
+    .menu-item {
+        display: inline-block;
+        padding: 1em;
+        text-decoration: none;
+        list-style: none;
+        list-style-type: none;
+    }
+
+    .menu-lista {
+        list-style: none;
+    }
+
+
+    #burguer {
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .menu-lista {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+    }
+
+
+    .projetos {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .texto-card-projetos {
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    
+
+}

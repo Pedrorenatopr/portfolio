@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>Portfólio</title>
+</head>
+<body onresize="mudouTamanho()">
+    
+    <div class="menu">
+        <div class="icones">
+            <button class="botao"><span id="burguer" class="material-icons md-48" onclick="clickMenu()" >menu</span></button>
+            <button class="botao"><span class="material-icons md-48">notifications</span></button>   
+        </div>
+        <ul class="menu-lista" id="itens">
+            <li><a class="menu-item" href="#">teste</a></li>
+            <li><a class="menu-item" href="#">teste</a></li>
+            <li><a class="menu-item" href="#">teste</a></li>
+        </ul>
+    </div>
+
+    <div class="perfil">
+        
+        <img src="perfil.png" alt="" width="100px" height="100px" class="perfil-img">
+        <p class="texto-perfil"><span class="nome">Pedro Renato</span><br>
+            front end developer <br>
+            <span class="material-icons md-18">place</span> Brasília <br>
+            <span class="material-icons md-48">email</span>
+        </p>
+        <hr>
+
+    </div>
+
+    <p class="texto-projeto">Projetos</p>
+
+    <div class="projetos">
+        
+        <article>
+            <p class="texto-card-projetos">Site agência de viagens</p>
+            <a href="#" class="projetos-img" ><img src="print-viagens.png" alt="" width="340px" ></a>
+        </article>
+
+        <article>
+            <p class="texto-card-projetos">Landing page agência digital</p>
+            <a href="#" class="projetos-img" ><img src="print-agencia-digital.png" alt="" width="340px" ></a>
+        </article>
+
+        <article>
+            <p class="texto-card-projetos">Landing page Nike</p>
+            <a href="#" class="projetos-img" ><img src="print-nike.png" alt="" width="340px" ></a>
+        </article>
+
+        <article>
+            <p class="texto-card-projetos">Clone site the coffee</p>
+            <a href="#" class="projetos-img" ><img src="print-the-coffee.png" alt="" width="340px" ></a>
+        </article>
+
+        <article>
+            <p class="texto-card-projetos">Clone Netflix Usuários</p>
+            <a href="#" class="projetos-img" ><img src="print-netflix-perfil.png" alt="" width="340px" ></a>
+        </article>
+
+        <article>
+            <p class="texto-card-projetos">Clone Netflix Home</p>
+            <a href="#" class="projetos-img" ><img src="print-netflix-home.png" alt="" width="340px" ></a>
+        </article>
+
+    </div>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 700) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none' 
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
