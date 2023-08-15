@@ -21,6 +21,11 @@ body {
     padding: 1em;
 }
 
+.texto-redes {
+    color: #bdc1c6;
+    display: inline;
+}
+
 .perfil-img {
     background-color: #525d68;
     border-radius: 110px;
@@ -45,6 +50,14 @@ hr {
     text-align: center;
     padding: 2em;
     align-items: center;
+}
+
+.material-icons.md-18 {
+    font-size: 14px; 
+}
+
+.texto-perfil {
+    line-height: 2em;
 }
 
 .projetos {
@@ -84,8 +97,17 @@ hr {
         width: 97%;
         position: fixed;
     }
+    
+    .redes {
+        position: absolute;
+        margin-left: -40px;
+        margin-top: 10px;
+    }
 
     .texto-redes {
+        position: absolute;
+        margin-top: 10px;
+        margin-top: 20px;
         color: #bdc1c6;
     }
 
@@ -108,8 +130,9 @@ hr {
 
     .menu-lista {
         list-style: none;
-        width: 100vh;
+        width: 150px;
         background-color: black;
+        height: 300px;
     }
 
 
@@ -128,10 +151,9 @@ hr {
     }
 
     .perfil {
-        padding-top: 50px;
+        padding-top: 60px;
     }
-
-
+    
     .projetos {
         display: block;
         align-items: center;
