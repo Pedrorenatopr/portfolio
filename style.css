@@ -60,6 +60,12 @@ hr {
 
 @media screen and  (max-device-width: 700px) {
 
+    .botao {
+        color: #bdc1c6;
+        border: none;
+        background-color: black;
+    }
+
     .menu {
         position: fixed;
     }
@@ -91,7 +97,7 @@ hr {
     .menu-lista {
         list-style: none;
         width: 15vh;
-        background-color: rgb(195, 56, 56);
+        background-color: black;
     }
 
 
