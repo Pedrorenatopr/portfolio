@@ -77,6 +77,13 @@ hr {
     display: none;
 }
 
+footer {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 0;
+}
+
 
 @media screen and  (max-device-width: 700px) {
 
@@ -130,9 +137,9 @@ hr {
 
     .menu-lista {
         list-style: none;
-        width: 150px;
+        width: 75%;
         background-color: black;
-        height: 300px;
+        height: 100vh;
     }
 
 
@@ -164,6 +171,12 @@ hr {
         text-align: left;
         padding-left: 20px;
         padding-top: 10px;
+    }
+
+    footer {
+        font-size: 10px;
+        text-align: center;
+        padding-top: 20px;
     }
 
     
