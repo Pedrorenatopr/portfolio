@@ -85,6 +85,10 @@ hr {
         position: fixed;
     }
 
+    .texto-redes {
+        color: #bdc1c6;
+    }
+
     .texto-menu {
         display: flex;
         text-align: center;
@@ -94,6 +98,7 @@ hr {
     }
 
     .menu-item {
+        margin-top: 20px;
         display: inline-block;
         padding: 1em;
         text-decoration: none;
@@ -103,7 +108,7 @@ hr {
 
     .menu-lista {
         list-style: none;
-        width: 15vh;
+        width: 100vh;
         background-color: black;
     }
 
