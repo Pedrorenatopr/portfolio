@@ -104,6 +104,7 @@ footer {
         background-color: #1D232A;
         width: 100%;
         position: fixed;
+        border: #525d68 1px solid;
     }
     
     .redes {
@@ -141,6 +142,7 @@ footer {
         width: 35vh;
         background-color: #1D232A;
         height: 100vh;
+        border-right: #525d68 1px solid;
     }
 
 
